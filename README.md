@@ -10,22 +10,50 @@ To write a program to find the maximum of a list of numbers.
 3.	Return the maximum value
 ## Program:
 
-i)	# To find the maximum of marks using the list method sort.
+## i) To find the maximum of marks using the list method sort.
 ```Python
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by:MOHAMED FAREED.F
+RegisterNumber:22001617
+'''
+def max_marks(marks):
+    marks.sort()
+    large=marks[-1]
+    return marks[-1]
 
 
 
 ```
 
-ii)	# To find the maximum marks using the list method max().
+## ii)To find the maximum marks using the list method max().
 ```Python
+''' 
+Program to find the maximum marks using the list method max().
+Developed by:VMOHAMED FAREED.F
+RegisterNumber:22001617
+'''
+def max_marks(marks):
+    large=max(marks)
+    return large
 
 
 
 ```
 
-iii) # To find the maximum marks without using builtin functions.
+## iii) To find the maximum marks without using builtin functions.
 ```Python
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by:MOHAMED FAREED.F 
+RegisterNumber:22001617
+'''
+def max_marks(list1):
+    max1=list1[0]
+    for i in list1:
+        if i>max1:
+            max1=i
+    return max1
 
 
 
@@ -34,6 +62,12 @@ iii) # To find the maximum marks without using builtin functions.
 ![output](./img/max_marks1.jpg) 
 
 ## Output:
+## i) To find the maximum of marks using the list method sort.
+![Screenshot_20230126_125441](https://user-images.githubusercontent.com/121412904/214788239-7a609488-bbbc-4443-8d81-c3775c26c6a5.png)
+## ii) To find the maximum marks using the list method max().
+![Screenshot_20230126_125459](https://user-images.githubusercontent.com/121412904/214788339-f4f2fb49-772d-455f-b99b-af3d6699037d.png)
+## iii) To find the maximum marks without using builtin functions.
+![Screenshot_20230126_125511](https://user-images.githubusercontent.com/121412904/214788688-df66db1b-55b1-4426-987b-e6fa1575452a.png)
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
